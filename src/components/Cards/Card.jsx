@@ -1,8 +1,15 @@
-// import Home from "./pages/Home";
-// import Footer from "./components/Footer/Footer";
+import { useState } from "react";
+
 import "./card.css";
 
 export default function Card() {
+  const [buttext, setButtext] = useState("Add to cart");
+  const change = () => {
+    setButtext(`✓ Added`);
+    setTimeout(() => {
+      setButtext("Add to cart");
+    }, 2000);
+  };
   return (
     <div className="card-container">
       <div className="card-container-upper">
@@ -30,7 +37,7 @@ export default function Card() {
         </div>
 
         <div className="cart-btn">
-          <button>Add to cart</button>
+          <button onClick={change}>{buttext}</button>
         </div>
       </div>
     </div>
