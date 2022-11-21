@@ -3,11 +3,14 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #00005c;
+  /* background: #00005c; */
   color: aliceblue;
   width: 90vw;
   height: 50px;
   /* min-width: 40%; */
+}
+.active {
+  background: #00005c;
 }
 .navcard div {
   padding: 0 0 0 10%;
