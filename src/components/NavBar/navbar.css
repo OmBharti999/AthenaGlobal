@@ -8,7 +8,7 @@
 .links {
   display: flex;
   gap: 20px;
-  color: wheat;
+  color: white;
   background: transparent;
 }
 .navbar nav-item {
