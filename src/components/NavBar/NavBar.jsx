@@ -24,7 +24,7 @@ function NavBar() {
   return (
     <div className="navbar">
       {arr.map((item, i) => (
-        <div className="nav-item" key={i}>
+        <div className={`nav-item ${i==2?"active":""}`} key={i}>
           <NavCard src={item.src} heading={item.heading} />
         </div>
       ))}
