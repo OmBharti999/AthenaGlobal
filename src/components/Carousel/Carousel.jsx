@@ -9,7 +9,7 @@ function DarkVariantExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/GettyImages-513439387-800x427.jpg"
+            src="https://www.trofasaude.pt/senhordobonfim/wp-content/uploads/sites/16/2022/06/banner-HC-alta-diferenciacao.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
