@@ -1,0 +1,35 @@
+.Navsearch {
+  display: flex;
+  justify-content: center;
+  padding: 8px 10%;
+  background: #d8d9cf;
+  margin: 0 0 10px 0;
+  /* min-height: 50px; */
+}
+
+.select {
+  border: none;
+}
+
+.select-cont {
+  background: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid black;
+}
+.input-cont {
+  width: 80%;
+}
+.input {
+  width: 80%;
+}
+
+.btn-pura {
+  background: rgb(37, 176, 180);
+  padding: 2px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}

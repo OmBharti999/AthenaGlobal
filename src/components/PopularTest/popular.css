@@ -1,0 +1,45 @@
+.PopularTest {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.title-popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.view {
+  color: #001253;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.view-2 {
+  display: none;
+}
+.card-holder-title {
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .PopularTest {
+    flex-direction: column;
+  }
+  .card-holder {
+    flex-direction: column;
+    align-items: center;
+  }
+  .view {
+    display: none;
+  }
+  .view-2 {
+    color: #001253;
+    font-size: 0.7rem;
+    font-weight: 800;
+    display: block;
+  }
+}

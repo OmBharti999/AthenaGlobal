@@ -1,0 +1,78 @@
+.card-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #b2b2b2;
+  border-radius: 5px;
+  width: 24%;
+  background: white;
+}
+.card-container-upper {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 10px;
+  width: 90%;
+  /* justify-content: flex-start; */
+}
+.card-title {
+  color: #000000;
+  font-weight: 700;
+}
+.card-container-down {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #b2b2b2;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 10%; */
+}
+.card-sec {
+  text-align: start;
+}
+.card-discription {
+  height: 20px;
+  overflow: hidden;
+  color: #3c4048;
+  font-size: 0.7rem;
+}
+.card-extra {
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+.cart-btn button {
+  /* display: flex; */
+  margin: 8px;
+  color: skyblue;
+  padding: 1px 10px;
+  border-radius: 5px;
+  background: white;
+  border: 2px solid skyblue;
+}
+
+.amount-card {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.amount-card-discount {
+  font-size: 0.65rem;
+  color: #38e54d;
+  font-weight: 700;
+}
+.amount-card-discount strike {
+  color: #5f6f94;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-container {
+    /* background: gold; */
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card-container {
+    /* background: gold; */
+    width: 50%;
+  }
+}

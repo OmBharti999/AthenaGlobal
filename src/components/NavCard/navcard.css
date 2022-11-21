@@ -1,0 +1,26 @@
+.navcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #00005c;
+  color: aliceblue;
+  width: 90vw;
+  height: 50px;
+  /* min-width: 40%; */
+}
+.navcard div {
+  padding: 0 0 0 10%;
+}
+.navcard h6 {
+  width: 80%;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .navcard {
+    width: 130%;
+    padding: 20px 15px;
+    margin: -8px;
+  }
+}
