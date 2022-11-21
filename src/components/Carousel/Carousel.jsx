@@ -20,7 +20,7 @@ function DarkVariantExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/resources/content/images/size/w600/resources/wp-content/uploads/2018/11/instagram-stories-ads-guide-featured.png"
+            src="https://university-sc.com/wp-content/uploads/2019/04/Memorial-Hermann-Header-background.jpg"
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -31,7 +31,7 @@ function DarkVariantExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://static.wixstatic.com/media/ec52c3_1dea4a2b088347f29ba9d251ec82bf37~mv2.png/v1/fill/w_640,h_380,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec52c3_1dea4a2b088347f29ba9d251ec82bf37~mv2.png"
+            src="https://previews.123rf.com/images/giggsy25/giggsy251711/giggsy25171100134/89624948-smart-doctor-with-a-stethoscope-on-blurred-hospital-background-and-medical-icon-in-hexagonal-shaped-.jpg"
             alt="Third slide"
           />
           <Carousel.Caption>
