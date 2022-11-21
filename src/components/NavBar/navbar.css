@@ -14,7 +14,7 @@
 .navbar nav-item {
   width: 100%;
 }
-.active {
+.active22 {
    display: flex;
   align-items: center;
   background: #00005c;
@@ -30,7 +30,7 @@
     gap: 0;
     /* justify-content: space-between; */
   }
-  .active{
+  .active22{
     margin:auto;
   }
 }
